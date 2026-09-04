@@ -1,0 +1,48 @@
+db
+greybox_tmp
+incremental_db
+output_files
+simulation
+hc_output
+scaler
+hps_isw_handoff
+vip
+*_sim
+.qsys_edit
+PLLJ_PLLSPE_INFO.txt
+*.bak
+*.orig
+*.rej
+*.qdf
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.sof
+*.qws
+*.ppf
+*.ddb
+build_id.v
+c5_pin_model_dump.txt
+*.sopcinfo
+*.csv
+*.f
+*.cmp
+*.sip
+*.spd
+*.bsf
+*~
+*.xml
+*_netlist
+*.cdf
+**/.DS_Store
+references
+agents
+
+# Reference snapshots must remain complete even when upstream source names
+# match MiSTer build-artifact patterns above.
+
+# Pinned snapshots retain their own .gitignore files byte-for-byte. The initial
+# tree is force-indexed so those upstream rules cannot hide files they tracked.
